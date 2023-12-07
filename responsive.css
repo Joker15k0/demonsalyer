@@ -1,0 +1,67 @@
+@media (max-width: 800px) {
+    main::after {
+        background: linear-gradient(8deg, #000 6%, rgb(39 33 33 / 15%) 95%) no-repeat;
+        width: 100vw;
+    }
+
+    main .personagem .imagem {
+        height: 100vh;
+    }
+
+    .contexto {
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 160vw;
+        padding: 30px;
+    }
+
+    .contexto .nome-personagem {
+        font-size: 30px;
+    }
+
+    .contexto .descriao {
+        max-width: 800px;
+    }
+
+    .botoes {
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100vw;
+        padding: 60px;
+    }
+
+    .botoes .botao img {
+        max-width: 86px;
+    }
+} 
+
+@media (max-width: 700px) {
+    main .personagem .imagem {
+        height: auto;
+    }
+
+    .contexto .logo {
+        display: none;
+        width: 400px;
+        height: 120px;
+            justify-content: center;
+    }
+
+    .contexto {
+        top: -30%;
+    }
+
+    .contexto .nome-personagem {
+        font-size: 24px;
+    }
+
+    .botoes {
+        padding: 0px;
+        top: -10%;
+    }
+
+    .botoes .botao img {
+        max-width: 80px;
+    }
+}
